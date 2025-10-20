@@ -6,42 +6,42 @@ A project to showcase login and MFA functionality using React + Express
 ## Setup & Installation
 
 ### 1. Clone the repo
-git clone https://github.com/6nce/LoginMVP
+git clone https://github.com/6nce/LoginMVP \
 cd loginmvp
 
 ### 2. Install Dependencies
-cd backend && npm install
+cd backend && npm install\
 cd frontend && npm install
 
 ### 3. Run the backend
-cd backend
+cd backend\
 node server.js
 
 ### 4. Run the frontend
-cd frontend
+cd frontend\
 npm run dev
 
-Frontend runs at: http://localhost:5173
+Frontend runs at: http://localhost:5173 \
 Backend runs at: http://localhost:8080
 
 ### 5. For Admin Testing, use the following login
-Email: admin@test.com
+Email: admin@test.com \
 PW: password1
 
 ### 6. For User Testing, use the following login (Or create your own)
-Email: user@test.com
+Email: user@test.com \
 PW: password2
 
 ### 7. App is also deployed on Render with full functionality.
-Live Frontend: https://loginmvp-frontend.onrender.com/
-Live Backend API: https://loginmvp-backend.onrender.com/
+Live Frontend: https://loginmvp-frontend.onrender.com/ \
+Live Backend API: https://loginmvp-backend.onrender.com/ \
 GitHub Repo: https://github.com/6nce/LoginMVP
 
 
 
 
 ## Testing (Cypress)
-Run Cypress:
+Run Cypress: \
 npx cypress open
 
 ## Notes & Learnings
