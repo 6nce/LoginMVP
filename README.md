@@ -23,6 +23,14 @@ npm run dev
 Frontend runs at: http://localhost:5173
 Backend runs at: http://localhost:8080
 
+### 5. For Admin Testing, use the following login
+Email: admin@test.com
+PW: password1
+
+### 6. For User Testing, use the following login (Or create your own)
+Email: user@test.com
+PW: password2
+
 
 ## Testing (Cypress)
 Run Cypress:
