@@ -28,7 +28,7 @@ Backend runs at: http://localhost:8080
 Run Cypress:
 npx cypress open
 
-### Notes & Learnings
+## Notes & Learnings
 - Loading times were simulated
 - MFA code generation generated via Speakeasy, but simulated to display TOTP in app instead of via email
 - No persistent storage
