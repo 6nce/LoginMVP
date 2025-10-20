@@ -19,7 +19,7 @@ export default function UserDashboard() {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`https://loginmvp-frontend.onrender.com/users/${id}?role=${role}`);
+            await axios.delete(`https://loginmvp-backend.onrender.com/users/${id}?role=${role}`);
             setUsers(users.filter(user => user.id !== id));
         } catch (err) {
             console.error(err);
