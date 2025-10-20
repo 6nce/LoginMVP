@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="526a4737-d6d8-4c87-904c-847821064d25" name="Changes" comment="Updated README with instructions.">
+    <list default="true" id="526a4737-d6d8-4c87-904c-847821064d25" name="Changes" comment="Updated README with links to Render Pages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/UserDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/UserDashboard.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <workItem from="1760673788748" duration="220000" />
       <workItem from="1760857752662" duration="110000" />
       <workItem from="1760944918971" duration="1186000" />
-      <workItem from="1760946442148" duration="8117000" />
+      <workItem from="1760946442148" duration="9172000" />
     </task>
     <task id="LOCAL-00001" summary="Created fully simulated User login process with MFA OTP authentication (Simulated in app), user roles/permissions, protected pages, and admin read/write capabilities.">
       <option name="closed" value="true" />
@@ -106,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760965129419</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated README with links to Render Pages.">
+      <option name="closed" value="true" />
+      <created>1760966775514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760966775514</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +124,7 @@
     <MESSAGE value="Created fully simulated User login process with MFA OTP authentication (Simulated in app), user roles/permissions, protected pages, and admin read/write capabilities." />
     <MESSAGE value="Added Cypress for functionality testing" />
     <MESSAGE value="Updated README with instructions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README with instructions." />
+    <MESSAGE value="Updated README with links to Render Pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README with links to Render Pages." />
   </component>
 </project>

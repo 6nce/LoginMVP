@@ -11,7 +11,7 @@ export default function UserDashboard() {
     useEffect(() => {
         if(role === "admin") {
             axios
-                .get(`https://loginmvp-frontend.onrender.com/users?role=${role}`)
+                .get(`https://loginmvp-backend.onrender.com/users?role=${role}`)
                 .then((res) => setUsers(res.data))
                 .catch((err) => setError(err.response?.data?.error || "Error fetching users"));
         }
@@ -48,7 +48,7 @@ export default function UserDashboard() {
                 <div className="flex flex-col items-center mt-10">
                     <h1 className="text-2xl font-bold mb-4">Admin Control Panel</h1>
                     {error && <p className="text-red-500 mb-2">{error}</p>}
-                    {users.map((user) => (
+                    {Array.isArray(users) && users.map((user) => (
                         <div key={user.id} className="border rounded p-3 mb-2 w-80 flex justify-between">
                             <span>{user.email}</span>
                             <span className="text-gray-500">{user.role}</span>
