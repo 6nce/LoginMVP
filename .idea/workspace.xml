@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="526a4737-d6d8-4c87-904c-847821064d25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PageLayout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/UserDashboard.jsx" afterDir="false" />
+    <list default="true" id="526a4737-d6d8-4c87-904c-847821064d25" name="Changes" comment="Added Cypress for functionality testing">
+      <change afterPath="$PROJECT_DIR$/backend/services/adminService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/cypress.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/cypress/cypress.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/cypress/e2e/auth_flow.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/cypress/fixtures/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/cypress/support/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/cypress/support/component-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/cypress/support/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/cypress/support/e2e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/authRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/authService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/MfaPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MfaPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProtectedPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/services/authService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/authService.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +74,25 @@
       <workItem from="1760673788748" duration="220000" />
       <workItem from="1760857752662" duration="110000" />
       <workItem from="1760944918971" duration="1186000" />
-      <workItem from="1760946442148" duration="4898000" />
+      <workItem from="1760946442148" duration="5840000" />
     </task>
+    <task id="LOCAL-00001" summary="Created fully simulated User login process with MFA OTP authentication (Simulated in app), user roles/permissions, protected pages, and admin read/write capabilities.">
+      <option name="closed" value="true" />
+      <created>1760963338365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760963338365</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created fully simulated User login process with MFA OTP authentication (Simulated in app), user roles/permissions, protected pages, and admin read/write capabilities." />
+    <MESSAGE value="Added Cypress for functionality testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Cypress for functionality testing" />
   </component>
 </project>
