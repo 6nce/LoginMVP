@@ -11,7 +11,7 @@ export default function UserDashboard() {
     useEffect(() => {
         if(role === "admin") {
             axios
-                .get(`http://localhost:8080/users?role=${role}`)
+                .get(`https://loginmvp-frontend.onrender.com/users?role=${role}`)
                 .then((res) => setUsers(res.data))
                 .catch((err) => setError(err.response?.data?.error || "Error fetching users"));
         }
@@ -19,7 +19,7 @@ export default function UserDashboard() {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`http://localhost:8080/users/${id}?role=${role}`);
+            await axios.delete(`https://loginmvp-frontend.onrender.com/users/${id}?role=${role}`);
             setUsers(users.filter(user => user.id !== id));
         } catch (err) {
             console.error(err);

@@ -16,14 +16,13 @@ export default function MfaPage() {
 
     console.log(token);
 
-
     const handleVerification = async (e) => {
         e.preventDefault()
         setLoading(true)
         setError("")
 
         try {
-            const response = await axios.post("http://localhost:8080/mfa", {
+            const response = await axios.post("https://loginmvp-backend.onrender.com/mfa", {
                 email,
                 token: otp
             });

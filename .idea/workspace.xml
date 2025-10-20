@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="526a4737-d6d8-4c87-904c-847821064d25" name="Changes" comment="Added Cypress for functionality testing">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="526a4737-d6d8-4c87-904c-847821064d25" name="Changes" comment="Updated README with instructions.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <workItem from="1760673788748" duration="220000" />
       <workItem from="1760857752662" duration="110000" />
       <workItem from="1760944918971" duration="1186000" />
-      <workItem from="1760946442148" duration="6201000" />
+      <workItem from="1760946442148" duration="7256000" />
     </task>
     <task id="LOCAL-00001" summary="Created fully simulated User login process with MFA OTP authentication (Simulated in app), user roles/permissions, protected pages, and admin read/write capabilities.">
       <option name="closed" value="true" />
@@ -81,7 +81,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760964547503</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated README with instructions.">
+      <option name="closed" value="true" />
+      <created>1760964992025</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760964992025</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated README with instructions.">
+      <option name="closed" value="true" />
+      <created>1760965030081</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760965030081</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated README with instructions.">
+      <option name="closed" value="true" />
+      <created>1760965129419</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760965129419</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created fully simulated User login process with MFA OTP authentication (Simulated in app), user roles/permissions, protected pages, and admin read/write capabilities." />
     <MESSAGE value="Added Cypress for functionality testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Cypress for functionality testing" />
+    <MESSAGE value="Updated README with instructions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README with instructions." />
   </component>
 </project>
