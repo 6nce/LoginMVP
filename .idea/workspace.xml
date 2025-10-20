@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="526a4737-d6d8-4c87-904c-847821064d25" name="Changes" comment="Updated README with instructions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <workItem from="1760673788748" duration="220000" />
       <workItem from="1760857752662" duration="110000" />
       <workItem from="1760944918971" duration="1186000" />
-      <workItem from="1760946442148" duration="7256000" />
+      <workItem from="1760946442148" duration="8117000" />
     </task>
     <task id="LOCAL-00001" summary="Created fully simulated User login process with MFA OTP authentication (Simulated in app), user roles/permissions, protected pages, and admin read/write capabilities.">
       <option name="closed" value="true" />

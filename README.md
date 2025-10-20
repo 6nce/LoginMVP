@@ -1,4 +1,5 @@
-# Vincent Truong Alkira Login MVP
+# Alkira Login MVP
+### Vincent Truong
 
 A project to showcase login and MFA functionality using React + Express
 
@@ -31,6 +32,13 @@ PW: password1
 Email: user@test.com
 PW: password2
 
+### 7. App is also deployed on Render with full functionality.
+Live Frontend: https://loginmvp-frontend.onrender.com/
+Live Backend API: https://loginmvp-backend.onrender.com/
+GitHub Repo: https://github.com/6nce/LoginMVP
+
+
+
 
 ## Testing (Cypress)
 Run Cypress:
@@ -41,3 +49,5 @@ npx cypress open
 - MFA code generation generated via Speakeasy, but simulated to display TOTP in app instead of via email
 - No persistent storage
 - Passwords hashed via bcrypt
+
+Thanks for the Opportunity!
