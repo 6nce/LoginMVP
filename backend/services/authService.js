@@ -2,6 +2,7 @@ import bcrypt from 'bcrypt';
 import {testUsers} from "../utils/testUsers.js";
 import {generateMfaSecret, verifyMfaToken} from "./mfaService.js";
 import speakeasy from "speakeasy";
+import {token} from "morgan";
 
 export async function loginController(req, res) {
     const {email, password} = req.body;
@@ -18,18 +19,26 @@ export async function loginController(req, res) {
     user.mfaSecret = secret;
 
     const testToken = speakeasy.totp({secret, encoding: "base32"});
-    console.log("Token for Testing:", testToken);
 
-    return res.json({message: "Success, Please validate login", otpAuthUrl})
+    return res.json({
+        message: "Success, Please Confirm it is you",
+        testToken,
+        otpAuthUrl,
+
+    })
 }
 
 export function verifyMfaController(req, res) {
     const {email, token} = req.body;
     const user = testUsers.find(u => u.email === email);
-    if(!user || !user.mfaSecret) return res.status(401).json({error: "Invalid login"});
+    if(!user || !user.mfaSecret) return res.status(401).json({error: "Invalid login A"});
 
     const valid = verifyMfaToken(user.mfaSecret, token);
-    if (!valid) return res.status(401).json({error: "Invalid login"});
+    if (!valid) return res.status(401).json({error: "Invalid login B"});
 
-    return res.json({message: "MFA Verified", accessGranted: true});
+    return res.json({
+        message: "MFA Verified",
+        accessGranted: true,
+        user: {role: user.role}
+    });
 }

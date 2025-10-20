@@ -1,17 +1,17 @@
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./pages/LoginPage.jsx";
 import MfaPage from "./pages/MfaPage";
-import ProtectedPage from "./pages/ProtectedPage";
+import UserDashboard from "./pages/UserDashboard.jsx";
 
 function App() {
   return (
-      <Router>
+      <BrowserRouter>
           <Routes>
               <Route path="/" element={<LoginPage />} />
               <Route path="/mfa" element={<MfaPage />} />
-              <Route path="/protected" element={<ProtectedPage />} />
+              <Route path="/dashboard" element={<UserDashboard />} />
           </Routes>
-      </Router>
+      </BrowserRouter>
 
   )
 }
